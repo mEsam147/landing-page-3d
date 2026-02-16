@@ -14,7 +14,7 @@ const alpino = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={alpino.variable}>
-      <body className="overflow-x-hidden bg-yellow-300">
+      <body className="overflow-x-hidden ">
         <Header />
         <main>
           {children}
